@@ -1,0 +1,20 @@
+# OCID de tu cuenta de OCI (Tenancy)
+tenancy_ocid     = "ocid1.tenancy.oc1..tu_ocid_real"
+
+# OCID del compartimiento (usualmente el mismo que tenancy_ocid si usas root)
+compartment_ocid = "ocid1.tenancy.oc1..tu_ocid_real"
+
+# Región (ej: sa-saopaulo-1, us-ashburn-1, etc.)
+region           = "sa-saopaulo-1"
+
+# Ruta local a tu clave pública SSH (ej. en Windows: C:/Users/TuUsuario/.ssh/id_rsa.pub o en Linux/Mac: ~/.ssh/id_rsa.pub)
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+# La API Key de Google Gemini
+google_api_key   = "tu_api_key_real_de_gemini"
+
+# La URL de este repositorio de GitHub (debe ser público para el cloud-init, o incluir token si es privado)
+github_repo_url  = "https://github.com/tu-usuario/santos-pegasus-agent.git"
+
+# Puerto de la app (Por defecto 8501)
+app_port = 8501

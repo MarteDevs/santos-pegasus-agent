@@ -61,7 +61,7 @@ def crear_agente():
 
     # 2. Configurar el modelo de lenguaje (Gemini)
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",  # rápido y con buena capa gratuita
+        model="gemini-3.5-flash",  # rápido y con buena capa gratuita
         temperature=0.2,  # baja temperatura = respuestas más precisas y menos creativas
     )
 
